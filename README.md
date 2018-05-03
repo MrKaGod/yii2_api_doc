@@ -1,5 +1,6 @@
 # yii2_api_doc
   将该文件复制到要生成api_doc的目录下即可生成  
+  ```
   demo:  
     /**  
      * api文档接口怎么生成？  
@@ -11,3 +12,10 @@
      * @return string msg 消息解释  
      * @return int code 0表示正确  
      */  
+  public function demo()
+  {
+    return [
+      
+    ];
+  }
+  ```
